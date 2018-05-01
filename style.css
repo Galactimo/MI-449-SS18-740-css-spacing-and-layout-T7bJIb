@@ -1,8 +1,5 @@
 body {
-  background-color: #8e8e8e;
-  padding: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #a0a0a0;
 }
 
 /* Main Header CSS Start */
@@ -49,6 +46,7 @@ li a.navbar {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: 1s;
 }
 
 li a.first {
@@ -60,6 +58,7 @@ li a.first {
   text-decoration: none;
   color: #fff;
   border-right: 1px solid #bbb;
+  transition: 1s;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -87,6 +86,11 @@ li {
   color: white;
   font-weight: 500;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+hr.gallery-hr {
+  border-top: 2px solid black;
+  width: 1600px;
 }
 
 .gallery {
@@ -133,6 +137,10 @@ li {
   font-style: italic;
   max-width: 400px;
   background-color: #333;
+}
+
+a {
+  color: yellow;
 }
 
 /* Gallery End */
