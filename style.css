@@ -1,0 +1,138 @@
+body {
+  background-color: #8e8e8e;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Main Header CSS Start */
+
+h1.mainheader {
+  margin: 75px 0 0 5px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+header hr {
+  border-top: 2px solid black;
+  width: 500px;
+}
+
+/* Main Header CSS End */
+
+/* Navbar Start */
+
+ul.navbar {
+  padding: 2px;
+  width: 100%;
+  list-style-type: none;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: linear-gradient(to right, #333, #5d5c5c);
+}
+
+li.navbar {
+  float: left;
+}
+
+li a.navbar {
+  display: block;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a.first {
+  display: block;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #fff;
+  border-right: 1px solid #bbb;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a.first:hover {
+  background-color: #111;
+}
+
+li a.navbar:hover {
+  background-color: #111;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Navbar End */
+
+/* Gallery Start */
+
+.gallery-header {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-top: 25px;
+  font-size: 28px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 5px solid black;
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #bbb;
+  height: 270px;
+  width: 480px;
+  margin-bottom: 5px;
+}
+
+.gallery-item .thumbnail:hover {
+  opacity: 0.4;
+}
+
+.picheader {
+  text-align: center;
+  padding: 0;
+  border: 0;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 500;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.description {
+  text-align: center;
+  margin: 0 auto;
+  padding: 3px;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+  max-width: 400px;
+  background-color: #333;
+}
+
+/* Gallery End */
