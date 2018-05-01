@@ -18,6 +18,21 @@ header hr {
   width: 500px;
 }
 
+.blurb {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 3px;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+  max-width: 700px;
+  background-color: #333;
+}
+
 /* Main Header CSS End */
 
 /* Navbar Start */
@@ -40,7 +55,7 @@ li.navbar {
 }
 
 li a.navbar {
-  display: block;
+  display: inline-block;
   color: white;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
@@ -50,7 +65,7 @@ li a.navbar {
 }
 
 li a.first {
-  display: block;
+  display: inline-block;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
