@@ -157,22 +157,10 @@ figcaption a {
 
 @media only screen and (max-width: 600px) {
   li a.navbar {
-    display: inline-block;
-    text-align: center;
     padding: 14px 6px;
-    color: white;
-    text-decoration: none;
-    transition: 1s;
   }
 
   li a.first {
-    display: inline-block;
-    font-weight: bold;
-    text-align: center;
     padding: 14px 6px;
-    text-decoration: none;
-    border-right: 1px solid #bbb;
-    transition: 1s;
-    color: white;
   }
 }
